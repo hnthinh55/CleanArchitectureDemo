@@ -17,9 +17,7 @@
 
   <ItemGroup>
     <Folder Include="Common\Exceptions\" />
-    <Folder Include="Common\Mappings\" />
     <Folder Include="DTOs\Email\" />
-    <Folder Include="Extensions\" />
     <Folder Include="Features\Clubs\Commands\" />
     <Folder Include="Features\Clubs\Queries\" />
     <Folder Include="Features\Players\Commands\DeletePlayer\" />
@@ -32,6 +30,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CleanArchitectureDemo.Domain\CleanArchitectureDemo.Domain.csproj" />
+    <ProjectReference Include="..\CleanArchitectureDemo.Shared\CleanArchitectureDemo.Shared.csproj" />
   </ItemGroup>
 
 </Project>
